@@ -94,7 +94,6 @@ Ras2Pt(raster('fl_ph.tif', 'FL'))
 Ras2Pt(stack(c('glad_ph.vrt', 'glad_ph1.vrt')) , 'GLAD')
 Ras2Pt(raster('./RADD_doy/radd_ph.vrt'), 'RADD')
 
-
 ### 4. Create point data of quarterly deforestation pixels from 2000-2020 separately for RADD and GLAD
 
 Quarterly <- function(prod='GLAD'){
@@ -211,6 +210,10 @@ setwd('C:/defoPH/results')
 ggsave(p, file=paste0("Figure3a.png"), width = 10, height = 8.5, units = "in")
 
 
+###################################################################################################################
+############### AT THIS POINT THE EMERGING HOTSPOT ANALYSIS MODEL SHOULD BE RUN AT ARCMAP >10.5 ################### 
+###################################################################################################################
+                  
 
 ### 6. Quarterly graph of deforestation pixels inside and outside hotspots (Figure 5 of paper)
 
