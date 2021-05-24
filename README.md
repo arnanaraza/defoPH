@@ -1,6 +1,6 @@
 # defoPH
 
-Workflow for the deforestation anaylsis using Emerging Hotspot Analysis (Araza et al. 2021). 
+Workflow for the deforestation anaylsis using Emerging Hotspot Analysis (Araza et al. unde preparation). 
 
 User requirements:
 
